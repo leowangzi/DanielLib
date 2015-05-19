@@ -1,0 +1,5 @@
+E:\DanielLib\DanielLib.Util.SimpleMail\bin\Debug\DanielLib.Util.SimpleMail.dll
+E:\DanielLib\DanielLib.Util.SimpleMail\bin\Debug\DanielLib.Util.SimpleMail.pdb
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Debug\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Debug\DanielLib.Util.SimpleMail.dll
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Debug\DanielLib.Util.SimpleMail.pdb

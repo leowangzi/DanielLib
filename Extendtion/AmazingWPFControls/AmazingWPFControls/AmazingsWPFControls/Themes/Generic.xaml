@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="AmazingWPFControls;component/HeaderedControl/HeaderedControl.generic.xaml" />
+        <ResourceDictionary Source="AmazingWPFControls;component/AnimatedExpander/AnimatedExpander.generic.xaml" />
+        <ResourceDictionary Source="AmazingWPFControls;component/HandWritingToText/HandWritingToText.generic.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+</ResourceDictionary>

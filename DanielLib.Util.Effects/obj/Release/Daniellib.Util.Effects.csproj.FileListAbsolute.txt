@@ -1,0 +1,12 @@
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Release\Daniellib.Util.Effects.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Release\Daniellib.Util.Effects.pdb
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Release\Daniellib.Util.Effects.g.resources
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Release\Daniellib.Util.Effects.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Release\Daniellib.Util.Effects.pdb
+G:\1_Application\DanielLib\DanielLib.Util.Effects\bin\Release\Daniellib.Util.Effects.dll
+G:\1_Application\DanielLib\DanielLib.Util.Effects\bin\Release\Daniellib.Util.Effects.pdb
+G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.g.resources
+G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.dll
+G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.pdb

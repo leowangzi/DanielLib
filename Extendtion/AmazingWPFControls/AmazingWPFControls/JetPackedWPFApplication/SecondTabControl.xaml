@@ -1,0 +1,37 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JetPackedWPFApplication.SecondTabControl"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480" Width="1066" Height="701">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid Margin="40,80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="248" Height="92">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" MinWidth="50"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*" MinWidth="50"/>
+			</Grid.ColumnDefinitions>
+			<TextBlock Style="{DynamicResource TextBlockLight}" TextWrapping="Wrap" FontSize="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in augue et sapien commodo viverra iaculis a metus. Etiam eu erat vitae mauris ullamcorper ultrices. </TextBlock>
+			<GridSplitter Margin="10" Grid.Column="1" HorizontalAlignment="Center" />
+			<TextBlock Grid.Column="2" Style="{DynamicResource TextBlockLight}" TextWrapping="Wrap" FontSize="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in augue et sapien commodo viverra iaculis a metus. Etiam eu erat vitae mauris ullamcorper ultrices. </TextBlock>
+		</Grid>
+		<Grid Margin="40,216,0,0" VerticalAlignment="Top" Height="115" HorizontalAlignment="Left" MaxWidth="300" Width="300" d:LayoutOverrides="HorizontalAlignment">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" MinHeight="20"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*" MinHeight="10"/>
+			</Grid.RowDefinitions>
+			<TextBlock Style="{DynamicResource TextBlockLight}" TextWrapping="Wrap" FontSize="10"><Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in augue et sapien commodo viverra iaculis a metus. Etiam eu erat vitae mauris ullamcorper ultrices."/></TextBlock>
+			<GridSplitter ResizeDirection="Rows" Margin="10" Grid.Row="1" HorizontalAlignment="Stretch" />
+			<TextBlock Grid.Row="2" Style="{DynamicResource TextBlockLight}" TextWrapping="Wrap" FontSize="10"><Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in augue et sapien commodo viverra iaculis a metus. Etiam eu erat vitae mauris ullamcorper ultrices."/></TextBlock>
+		</Grid>
+		<TextBlock Margin="19.84,39.616,0,0" TextWrapping="Wrap" Style="{DynamicResource Heading3}" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="268.16" ><Run Language="fr-fr" Text="GridSplitter"/></TextBlock>
+		<Expander Header="Expander" Height="192" Margin="432,80,362,0" VerticalAlignment="Top">
+			<Grid Background="#FFE5E5E5"/>
+		</Expander>
+	</Grid>
+</UserControl>

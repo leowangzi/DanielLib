@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Touchtech.Surface.Community</name>
+    </assembly>
+    <members>
+        <member name="T:Touchtech.Surface.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:Touchtech.Surface.NativeMethods.DeleteObject(System.IntPtr)">
+            <summary>
+            The DeleteObject function deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object. After the object is deleted, the specified handle is no longer valid.
+            </summary>
+            <param name="hObject">A handle to a logical pen, brush, font, bitmap, region, or palette.</param>
+            <returns>If the function succeeds, the return value is nonzero. If the specified handle is not valid or is currently selected into a DC, the return value is zero.</returns>
+        </member>
+        <member name="M:Touchtech.Surface.NativeMethods.SetProp(System.IntPtr,System.String,System.IntPtr)">
+            <summary>
+            The SetProp function adds a new entry or changes an existing entry in the property list of the specified window. The function adds a new entry to the list if the specified character string does not exist already in the list. The new entry contains the string and the handle. Otherwise, the function replaces the string's current handle with the specified handle.
+            </summary>
+            <remarks>
+            <para>Before a window is destroyed (that is, before it returns from processing the WM_NCDESTROY message), an application must remove all entries it has added to the property list. The application must use the RemoveProp function to remove the entries.</para>
+            <para>Windows 95/98/Me: SetPropW is supported by the Microsoft Layer for Unicode (MSLU). SetPropA is also supported to provide more consistent behavior across all Microsoft Windows operating systems. To use this, you must add certain files to your application, as outlined in Microsoft Layer for Unicode on Windows 95/98/Me Systems.</para>
+            <para>Windows Vista: SetProp is subject to the restrictions of User Interface Privilege Isolation (UIPI). A process can only call this function on a window belonging to a process of lesser or equal integrity level. When UIPI blocks property changes, GetLastError will return 5.</para>
+            </remarks>
+            <param name="hWnd">Handle to the window whose property list receives the new entry.</param>
+            <param name="lpString">Pointer to a null-terminated string or contains an atom that identifies a string. If this parameter is an atom, it must be a global atom created by a previous call to the GlobalAddAtom function. The atom must be placed in the low-order word of lpString; the high-order word must be zero.</param>
+            <param name="hData">Handle to the data to be copied to the property list. The data handle can identify any value useful to the application. </param>
+            <returns>If the data handle and string are added to the property list, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call GetLastError.</returns>
+        </member>
+        <member name="T:Touchtech.Surface.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Resources.SurfaceInputSuppressionFailed">
+            <summary>
+              Looks up a localized string similar to Failed to suppress Surface Input.
+            </summary>
+        </member>
+        <member name="T:Touchtech.Surface.SurfaceEnvironmentHelper">
+            <summary>
+            Static class containing helper methods for manipulating the <see cref="T:Microsoft.Surface.SurfaceEnvironment"/> class.
+            </summary>
+        </member>
+        <member name="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInput">
+            <summary>
+            Suppresses Surface Input. Throws <see cref="T:System.InvalidOperationException"/> if suppression fails.
+            </summary>
+            <remarks>
+            If you want suppression on a <c>SurfaceWindow</c> you must call this function
+            before calling the constructor of the <c>SurfaceWindow</c>. A best practise is to override the <c>OnStartup()</c> method on the <c>Application</c>
+            class of your application and suppress Surface Input from there.
+            Use <see cref="M:Touchtech.Surface.SurfaceEnvironmentHelper.TrySuppressSurfaceInput"/> to avoid exceptions being thrown.
+            </remarks>
+        </member>
+        <member name="M:Touchtech.Surface.SurfaceEnvironmentHelper.TrySuppressSurfaceInput">
+            <summary>
+            Tries to suppress Surface Input and returns whether suppression succeeded or not.
+            </summary>
+            <returns>True if suppression of Surface Input was successful</returns>
+            <remarks>
+            This method internally calls <see cref="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInput"/> and transforms the (potentially) thrown exception into a bool and returns it.
+            </remarks>
+        </member>
+        <member name="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInputOnNonSurfaceHardware">
+            <summary>
+            Suppresses Surface Input if the current <c>Application</c> is running on non-Surface hardware. Throws <see cref="T:System.InvalidOperationException"/> if suppression fails.
+            </summary>
+            <remarks>
+            Internally calls <see cref="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInput"/>.
+            </remarks>
+        </member>
+        <member name="M:Touchtech.Surface.SurfaceEnvironmentHelper.TrySuppressSurfaceInputOnNonSurfaceHardware">
+            <summary>
+            Tries to suppress Surface Input if the current <c>Application</c> is running on non-Surface hardware.
+            </summary>
+            <returns>True if suppression of Surface input was successful or if the current <c>Application</c>
+            is running on non-Surface hardware.</returns>
+            <remarks>
+            Internally calls <see cref="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInputOnNonSurfaceHardware"/>.
+            </remarks>
+        </member>
+        <member name="P:Touchtech.Surface.SurfaceEnvironmentHelper.IsSurfaceInputSuppressed">
+            <summary>
+            Gets whether Surface Input has been suppressed.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.SurfaceEnvironmentHelper.IsRunningOnSurfaceHardware">
+            <summary>
+            Gets whether this application is running on actual Surface Hardware.
+            </summary>
+            <remarks>
+            This is implemented by checking if the Surface Digitizer is available in Surface's HID Input Provider APIs.
+            </remarks>
+        </member>
+    </members>
+</doc>

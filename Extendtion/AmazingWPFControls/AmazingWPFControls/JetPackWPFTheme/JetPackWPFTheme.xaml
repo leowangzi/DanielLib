@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary
+        Source="/JetPackWPFTheme;component/Assets/Brushes.xaml" />
+    <ResourceDictionary
+        Source="/JetPackWPFTheme;component/Assets/Fonts.xaml" />
+    <ResourceDictionary
+        Source="/JetPackWPFTheme;component/Assets/CoreStyles.xaml" />
+    <ResourceDictionary
+        Source="/JetPackWPFTheme;component/Assets/Styles.xaml" />
+    <ResourceDictionary
+        Source="/JetPackWPFTheme;component/Assets/SdkStyles.xaml" />
+    
+  </ResourceDictionary.MergedDictionaries>
+  
+  <!--THIS IS A FIX : do not remove it !--> 
+  <Style TargetType="{x:Type Rectangle}" />
+</ResourceDictionary>

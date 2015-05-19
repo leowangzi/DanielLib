@@ -1,0 +1,10 @@
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\DanielLib.Util.TUIO2TOUCH\obj\Debug\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\DanielLib.Util.TUIO2TOUCH\bin\Debug\DanielLib.Util.TUIO2TOUCH.dll
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\DanielLib.Util.TUIO2TOUCH\bin\Debug\DanielLib.Util.TUIO2TOUCH.pdb
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\DanielLib.Util.TUIO2TOUCH\obj\Debug\DanielLib.Util.TUIO2TOUCH.dll
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\DanielLib.Util.TUIO2TOUCH\obj\Debug\DanielLib.Util.TUIO2TOUCH.pdb
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\bin\Debug\DanielLib.Util.TUIO2TOUCH.dll
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\bin\Debug\DanielLib.Util.TUIO2TOUCH.pdb
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Debug\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Debug\DanielLib.Util.TUIO2TOUCH.dll
+E:\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Debug\DanielLib.Util.TUIO2TOUCH.pdb

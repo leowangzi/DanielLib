@@ -1,0 +1,9 @@
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\DanielLib.Utilities.Test.exe.config
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\DanielLib.Utilities.Test.exe
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\DanielLib.Utilities.Test.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\DanielLib.Utilities.dll
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\log4net.dll
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Debug\DanielLib.Utilities.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Debug\DanielLib.Utilities.Test.exe
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Debug\DanielLib.Utilities.Test.pdb

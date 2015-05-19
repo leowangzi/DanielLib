@@ -1,0 +1,5 @@
+E:\DanielLib\DanielLib.Util.SerialPort\bin\Debug\DanielLib.Util.SerialPort.dll
+E:\DanielLib\DanielLib.Util.SerialPort\bin\Debug\DanielLib.Util.SerialPort.pdb
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Debug\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Debug\DanielLib.Util.SerialPort.dll
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Debug\DanielLib.Util.SerialPort.pdb

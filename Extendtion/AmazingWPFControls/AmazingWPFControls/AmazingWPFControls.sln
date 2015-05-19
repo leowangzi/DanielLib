@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingWPFControls.Showcase", "AmazingWPFControls.Showcase\AmazingWPFControls.Showcase.csproj", "{27E3DB2E-0064-4C89-9818-EFD81A84F545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingWPFControls", "AmazingsWPFControls\AmazingWPFControls.csproj", "{9FB94F9E-B3AC-420A-BBFA-067050155AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetPackedWPFApplication", "JetPackedWPFApplication\JetPackedWPFApplication.csproj", "{6632041F-FF02-4A19-BE10-69DD2CCA1875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{4C90C12A-8180-4A85-B1D4-23E2EE0EC50A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IAWinFx", "IAWinFx", "{624055A2-C761-46F2-BC71-F18B11E2CA93}"
+	ProjectSection(SolutionItems) = preProject
+		..\Assemblies\IAWinFx\IACore.dll = ..\Assemblies\IAWinFx\IACore.dll
+		..\Assemblies\IAWinFx\IACore.xml = ..\Assemblies\IAWinFx\IACore.xml
+		..\Assemblies\IAWinFx\IALoader.dll = ..\Assemblies\IAWinFx\IALoader.dll
+		..\Assemblies\IAWinFx\IAWinFX.dll = ..\Assemblies\IAWinFx\IAWinFX.dll
+		..\Assemblies\IAWinFx\IAWinFX.xml = ..\Assemblies\IAWinFx\IAWinFX.xml
+		..\Assemblies\IAWinFx\Microsoft.Ink.Analysis.dll = ..\Assemblies\IAWinFx\Microsoft.Ink.Analysis.dll
+		..\Assemblies\IAWinFx\Microsoft.Ink.Analysis.xml = ..\Assemblies\IAWinFx\Microsoft.Ink.Analysis.xml
+		..\Assemblies\IAWinFx\Microsoft.Ink.JournalReader.dll = ..\Assemblies\IAWinFx\Microsoft.Ink.JournalReader.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetPackWPFTheme", "JetPackWPFTheme\JetPackWPFTheme.csproj", "{EE089CC3-B234-4935-A0F0-835F537D3AB1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs18
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AmazingWPFControls.Showcase\\AmazingWPFControls.Showcase.csproj
+		SccProjectName1 = AmazingWPFControls.Showcase
+		SccLocalPath1 = AmazingWPFControls.Showcase
+		SccProjectUniqueName2 = JetPackedWPFApplication\\JetPackedWPFApplication.csproj
+		SccProjectName2 = JetPackedWPFApplication
+		SccLocalPath2 = JetPackedWPFApplication
+		SccProjectUniqueName3 = AmazingsWPFControls\\AmazingWPFControls.csproj
+		SccProjectName3 = AmazingsWPFControls
+		SccLocalPath3 = AmazingsWPFControls
+		SccProjectUniqueName4 = JetPackWPFTheme\\JetPackWPFTheme.csproj
+		SccProjectName4 = JetPackWPFTheme
+		SccLocalPath4 = JetPackWPFTheme
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Debug|x86.ActiveCfg = Debug|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Debug|x86.Build.0 = Debug|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Release|Any CPU.ActiveCfg = Release|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Release|Mixed Platforms.Build.0 = Release|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Release|x86.ActiveCfg = Release|x86
+		{27E3DB2E-0064-4C89-9818-EFD81A84F545}.Release|x86.Build.0 = Release|x86
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9FB94F9E-B3AC-420A-BBFA-067050155AF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Debug|x86.ActiveCfg = Debug|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Debug|x86.Build.0 = Debug|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Release|Any CPU.ActiveCfg = Release|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Release|x86.ActiveCfg = Release|x86
+		{6632041F-FF02-4A19-BE10-69DD2CCA1875}.Release|x86.Build.0 = Release|x86
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EE089CC3-B234-4935-A0F0-835F537D3AB1}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{624055A2-C761-46F2-BC71-F18B11E2CA93} = {4C90C12A-8180-4A85-B1D4-23E2EE0EC50A}
+	EndGlobalSection
+EndGlobal

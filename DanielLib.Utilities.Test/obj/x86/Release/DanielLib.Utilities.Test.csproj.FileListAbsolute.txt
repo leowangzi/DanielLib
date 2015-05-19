@@ -1,0 +1,11 @@
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe.config
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.pdb
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.dll
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\log4net.dll
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.pdb
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.exe
+G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe.config
+E:\1_项目\99_Private\CSharp\DanielLib\Ref\DanielLib-master\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe.config

@@ -1,0 +1,14 @@
+﻿<ts:OptimizedSurfaceWindow x:Class="DanielLib.TouchAppTemplate.SurfaceWindow1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:ts="http://schemas.touchtech.se/surface/2011"
+    Title="DanielLib.TouchAppTemplate">
+    <!--WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Topmost="True"-->
+  <Grid x:Name="root">
+        <Grid.Background>
+            <ImageBrush x:Name="Img_background"/>
+        </Grid.Background>
+        <Image x:Name="Img_one"/>
+    </Grid>
+</ts:OptimizedSurfaceWindow>

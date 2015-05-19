@@ -1,0 +1,10 @@
+E:\DanielLib\DanielLib.Util.SerialPort\bin\Release\DanielLib.Util.SerialPort.dll
+E:\DanielLib\DanielLib.Util.SerialPort\bin\Release\DanielLib.Util.SerialPort.pdb
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Release\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Release\DanielLib.Util.SerialPort.dll
+E:\DanielLib\DanielLib.Util.SerialPort\obj\Release\DanielLib.Util.SerialPort.pdb
+G:\1_Application\DanielLib\DanielLib.Util.SerialPort\bin\Release\DanielLib.Util.SerialPort.dll
+G:\1_Application\DanielLib\DanielLib.Util.SerialPort\bin\Release\DanielLib.Util.SerialPort.pdb
+G:\1_Application\DanielLib\DanielLib.Util.SerialPort\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Util.SerialPort\obj\Release\DanielLib.Util.SerialPort.dll
+G:\1_Application\DanielLib\DanielLib.Util.SerialPort\obj\Release\DanielLib.Util.SerialPort.pdb

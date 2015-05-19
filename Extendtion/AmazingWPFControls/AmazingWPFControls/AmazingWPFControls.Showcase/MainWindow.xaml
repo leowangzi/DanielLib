@@ -1,0 +1,24 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:controls="http://blog.lexique-du-net.com/wpf/AmazingWPFControls"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="clr-namespace:AmazingWPFControls.Showcase" mc:Ignorable="d"
+      x:Class="AmazingWPFControls.Showcase.MainWindow" Title="Amazing WPF Controls showcase" Height="768" Width="1024"
+      Background="{DynamicResource ControlBackgroundPressed}">
+   <TabControl TabStripPlacement="Top">
+      <TabItem Header="About">
+         <local:AboutTab />
+      </TabItem>
+      <TabItem Header="Hand Writing To Text control">
+         <local:HandWritingToTextTab />
+      </TabItem>
+      <TabItem Header="Animated expander">
+         <local:AnimatedExpanderTab />
+      </TabItem>
+      <TabItem Header="HeaderedControl">
+         <local:HeaderedControlTab />
+      </TabItem>
+
+   </TabControl>
+</Window>

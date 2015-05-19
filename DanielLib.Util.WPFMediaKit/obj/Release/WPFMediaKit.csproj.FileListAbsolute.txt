@@ -1,0 +1,15 @@
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\bin\Release\WPFMediaKit.dll
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\bin\Release\WPFMediaKit.pdb
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\bin\Release\DirectShowLib-2005.dll
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\GeneratedInternalTypeHelper.g.cs
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit_MarkupCompile.cache
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit_MarkupCompile.lref
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\Themes\generic.baml
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\Themes\MediaDetectorGeneric.baml
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit.g.resources
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit.Properties.Resources.resources
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit.dll
+G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\WPFMediaKit.pdb

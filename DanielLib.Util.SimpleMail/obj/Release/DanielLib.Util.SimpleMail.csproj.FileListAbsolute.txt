@@ -1,0 +1,10 @@
+E:\DanielLib\DanielLib.Util.SimpleMail\bin\Release\DanielLib.Util.SimpleMail.dll
+E:\DanielLib\DanielLib.Util.SimpleMail\bin\Release\DanielLib.Util.SimpleMail.pdb
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Release\ResolveAssemblyReference.cache
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Release\DanielLib.Util.SimpleMail.dll
+E:\DanielLib\DanielLib.Util.SimpleMail\obj\Release\DanielLib.Util.SimpleMail.pdb
+G:\1_Application\DanielLib\DanielLib.Util.SimpleMail\bin\Release\DanielLib.Util.SimpleMail.dll
+G:\1_Application\DanielLib\DanielLib.Util.SimpleMail\bin\Release\DanielLib.Util.SimpleMail.pdb
+G:\1_Application\DanielLib\DanielLib.Util.SimpleMail\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Util.SimpleMail\obj\Release\DanielLib.Util.SimpleMail.dll
+G:\1_Application\DanielLib\DanielLib.Util.SimpleMail\obj\Release\DanielLib.Util.SimpleMail.pdb

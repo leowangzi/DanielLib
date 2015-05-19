@@ -1,0 +1,15 @@
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Debug\Daniellib.Util.Effects.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Debug\Daniellib.Util.Effects.pdb
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Debug\WPFMediaKit.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Debug\DirectShowLib-2005.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\bin\Debug\WPFMediaKit.pdb
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Debug\ResolveAssemblyReference.cache
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.g.resources
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.dll
+G:\1_Application\0_WPF\NEW\funcam-54570\src\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.pdb
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\bin\Debug\Daniellib.Util.Effects.dll
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\bin\Debug\Daniellib.Util.Effects.pdb
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.g.resources
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.dll
+C:\Users\wlc\Desktop\CamLib\Daniellib.Util.Effects\obj\Debug\Daniellib.Util.Effects.pdb

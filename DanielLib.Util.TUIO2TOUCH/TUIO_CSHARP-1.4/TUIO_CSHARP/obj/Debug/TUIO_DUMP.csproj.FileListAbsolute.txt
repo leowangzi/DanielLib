@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\bin\Debug\TuioDump.exe
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\bin\Debug\TuioDump.pdb
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDump.exe
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDump.pdb

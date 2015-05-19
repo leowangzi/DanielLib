@@ -1,0 +1,22 @@
+﻿<Application x:Class="AmazingWPFControls.Showcase.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary
+            Source="/JetPackWPFTheme;component/JetPackWPFTheme.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+      <Style x:Key="DescriptionStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground"
+            Value="{StaticResource NavigationForegroundColorBrush}" />
+        <Setter Property="FontFamily" Value="{StaticResource ContentFontFamily}" />
+        <Setter Property="FontSize" Value="{StaticResource ContentFontSize}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Margin" Value="0,2,0,2" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

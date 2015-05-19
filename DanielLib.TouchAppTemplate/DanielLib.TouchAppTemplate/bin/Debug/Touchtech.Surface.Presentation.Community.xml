@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Touchtech.Surface.Presentation.Community</name>
+    </assembly>
+    <members>
+        <member name="T:Touchtech.Surface.Presentation.Input.TouchExtensions">
+            <summary>
+            Static class containing a set of extension methods related to WPF Touch APIs and Surface SDK APIs.
+            </summary>
+        </member>
+        <member name="M:Touchtech.Surface.Presentation.Input.TouchExtensions.TryEnableNativeTouch(System.Windows.Window)">
+            <summary>
+            Enables <see cref="T:Blake.NUI.WPF.Touch.NativeTouchDevice"/> and disables tablet gestures (flicks, hold gesture, etc.) on the <see cref="T:System.Windows.Window"/>.
+            </summary>
+            <param name="window">The <see cref="T:System.Windows.Window"/> to enable <see cref="T:Blake.NUI.WPF.Touch.NativeTouchDevice"/> on.</param>
+            <returns>True if the operation succeeded</returns>
+        </member>
+        <member name="T:Touchtech.Surface.Presentation.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Presentation.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Presentation.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Touchtech.Surface.Presentation.Properties.Resources.FailedToEnableNativeTouchOnWindow">
+            <summary>
+              Looks up a localized string similar to Failed to enable Native Touch on Window..
+            </summary>
+        </member>
+        <member name="T:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow">
+            <summary>
+            A <see cref="T:Microsoft.Surface.Presentation.Controls.SurfaceWindow"/> that enables Native Touch automatically if <see cref="P:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow.IsOptimizationEnabled"/> is set to <c>true</c> (default).
+            </summary>
+        </member>
+        <member name="F:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow.IsOptimizationEnabledProperty">
+            <summary>
+            Identifies the <see cref="P:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow.IsOptimizationEnabled"/> dependency property.
+            </summary>
+        </member>
+        <member name="M:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow.OnInitialized(System.EventArgs)">
+            <summary>
+            Overridden.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:Touchtech.Surface.Presentation.Controls.OptimizedSurfaceWindow.IsOptimizationEnabled">
+            <summary>
+            Gets or sets whether optimization is enabled on this <see cref="T:System.Windows.Window"/> through the use of the Native Touch features.
+            </summary>
+            <remarks>
+            Native Touch will only be enabled if Surface Input is suppressed. Please make sure to suppress Surface Input through the use
+            of <see cref="M:Touchtech.Surface.SurfaceEnvironmentHelper.SuppressSurfaceInput"/> or one of its helper methods in the same class.
+            </remarks>
+        </member>
+    </members>
+</doc>

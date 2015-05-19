@@ -1,0 +1,57 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:AmazingControls="http://blog.lexique-du-net.com/wpf/AmazingWPFControls" mc:Ignorable="d"
+        x:Class="AmazingWPFControls.Showcase.HandWritingToTextTab" x:Name="UserControl" d:DesignWidth="996"
+        d:DesignHeight="686.04">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.492*" />
+                <ColumnDefinition Width="0.508*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.143*" />
+                <RowDefinition Height="0.857*" />
+            </Grid.RowDefinitions>
+            <TextBlock Style="{DynamicResource DescriptionStyle}" HorizontalAlignment="Center" TextAlignment="Center"
+                    VerticalAlignment="Center" Foreground="{DynamicResource ColorAccentOverBrush}" FontSize="16"
+                    Grid.ColumnSpan="2"><TextBlock.Background>
+                    <ImageBrush />
+                </TextBlock.Background><Run Language="fr-fr"
+                        Text="The andwriting to text control is here to enable the user to write some words which will be recognized" /><LineBreak /><Run
+                        Language="fr-fr"
+                        Text=" and provided via events/binding to the other controls. You can try here to write some words on the left blank aera, the recognized " /><LineBreak /><Run
+                        Language="fr-fr"
+                        Text="words will be displayed in the right listbox. The introducing and explaining post " /><InlineUIContainer>
+            		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Foreground="#FFE8EFFF"
+                            TextDecorations="Underline" Cursor="Hand" Text="can be found here"><i:Interaction.Triggers><i:EventTrigger
+                                    EventName="MouseLeftButtonDown"><ei:LaunchUriOrFileAction
+                                        Path="http://blog.lexique-du-net.com/index.php?post/2010/09/19/How-to-create-an-hand-writing-to-text-control-%28ink-recognizer%29" /></i:EventTrigger> </i:Interaction.Triggers></TextBlock>
+            	</InlineUIContainer><Run Language="fr-fr" Text="." /><LineBreak /><Run /></TextBlock>
+            <StackPanel Grid.Column="1" Orientation="Vertical" Grid.Row="1" d:LayoutOverrides="Height"
+                    VerticalAlignment="Top">
+                <TextBlock TextWrapping="Wrap" Style="{DynamicResource Heading3}" HorizontalAlignment="Center"
+                        Margin="0,0,0,11" Text="The recognized text" />
+                <Border BorderBrush="{DynamicResource ControlBackgroundNormalOrange}" BorderThickness="6"
+                        CornerRadius="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="450">
+                    <ListBox x:Name="regognizedTextListBox" ItemsSource="{Binding RecognizedWords}" Height="450" />
+                </Border>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Grid.Row="1" d:LayoutOverrides="Height" VerticalAlignment="Top">
+                <TextBlock TextWrapping="Wrap" Style="{DynamicResource Heading3}" HorizontalAlignment="Center"
+                        Margin="0,0,0,11" Text="Write on the surface below" />
+                <Border BorderBrush="{DynamicResource ControlBackgroundNormalOrange}" BorderThickness="6"
+                        CornerRadius="3" Width="450" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                    <AmazingControls:HandWritingToText TextEntered="HandWritingToText_TextEntered" StrokeColor="Red"
+                            Height="450" Background="White" />
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

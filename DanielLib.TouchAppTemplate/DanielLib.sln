@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielLib.TouchAppTemplate", "DanielLib.TouchAppTemplate\DanielLib.TouchAppTemplate.csproj", "{9C5AD798-CE3D-4B6C-8671-134BB5FDFCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touchtech.Surface.Community", "Touchtech.Surface.Community\Touchtech.Surface.Community.csproj", "{6F353CC0-F559-4CBB-952C-56CDDD41E4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touchtech.Surface.Presentation.Community", "Touchtech.Surface.Presentation.Community\Touchtech.Surface.Presentation.Community.csproj", "{3A8305D7-EB2B-4A58-8115-CA944068B6BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5AD798-CE3D-4B6C-8671-134BB5FDFCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5AD798-CE3D-4B6C-8671-134BB5FDFCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5AD798-CE3D-4B6C-8671-134BB5FDFCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5AD798-CE3D-4B6C-8671-134BB5FDFCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F353CC0-F559-4CBB-952C-56CDDD41E4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F353CC0-F559-4CBB-952C-56CDDD41E4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F353CC0-F559-4CBB-952C-56CDDD41E4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F353CC0-F559-4CBB-952C-56CDDD41E4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8305D7-EB2B-4A58-8115-CA944068B6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8305D7-EB2B-4A58-8115-CA944068B6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8305D7-EB2B-4A58-8115-CA944068B6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8305D7-EB2B-4A58-8115-CA944068B6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

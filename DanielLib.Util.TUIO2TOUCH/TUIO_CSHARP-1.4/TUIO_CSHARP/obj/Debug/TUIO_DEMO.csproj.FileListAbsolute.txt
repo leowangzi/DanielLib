@@ -1,0 +1,11 @@
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\bin\Debug\TuioDemo.exe
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\bin\Debug\TuioDemo.pdb
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.exe
+C:\Documents and Settings\Administrator\桌面\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.pdb
+E:\学习\TUIO学习全文件\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.exe
+E:\学习\TUIO学习全文件\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.pdb
+F:\Users\Administrator\Desktop\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.exe
+F:\Users\Administrator\Desktop\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.pdb
+C:\Users\AMg\Desktop\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.exe
+C:\Users\AMg\Desktop\TUIO_CSHARP-1.4\TUIO_CSHARP\obj\Debug\TuioDemo.pdb

@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="AmazingWPFControls.Showcase.HeaderedControlTab"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:controls="http://blog.lexique-du-net.com/wpf/AmazingWPFControls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="300"
+      d:DesignWidth="300">
+   <Grid>
+      <Grid.RowDefinitions>
+         <RowDefinition Height="0.073*" />
+         <RowDefinition Height="0.927*" />
+      </Grid.RowDefinitions>
+      <TextBlock Style="{DynamicResource ContentTextStyle}" HorizontalAlignment="Center" TextAlignment="Center"
+            VerticalAlignment="Center" Foreground="{DynamicResource ColorAccentBrush}"><Run
+               Text="The HeaderedControl is just a reproduction of the .NET headered control " /><LineBreak /><Run
+               Text="used for demonstration purpose in the post 'How to create a control's library'." /></TextBlock>
+      <controls:HeaderedControl PositionOfTheHeader="Bottom" Header="The lovely header content"
+            d:LayoutOverrides="Width, GridBox" Grid.Row="1">
+         <DockPanel>
+            <DockPanel.Background>
+               <RadialGradientBrush>
+                  <GradientStop Color="Black" Offset="0" />
+                  <GradientStop Color="#FF20364B" Offset="1" />
+               </RadialGradientBrush>
+            </DockPanel.Background>
+         </DockPanel>
+      </controls:HeaderedControl>
+   </Grid>
+</UserControl>
