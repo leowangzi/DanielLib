@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Media;
 using System.IO;
+using System.Windows.Media;
 using DanielLib.Utilities.LogHandler;
 
 namespace DanielLib.Utilities.AudioHandler

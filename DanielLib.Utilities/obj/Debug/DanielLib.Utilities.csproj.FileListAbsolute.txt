@@ -1,0 +1,5 @@
+E:\1_项目\99_Private\CSharp\DanielLib\NewDanielLib\DanielLib.Utilities\bin\Debug\DanielLib.Utilities.dll
+E:\1_项目\99_Private\CSharp\DanielLib\NewDanielLib\DanielLib.Utilities\bin\Debug\DanielLib.Utilities.pdb
+E:\1_项目\99_Private\CSharp\DanielLib\NewDanielLib\DanielLib.Utilities\bin\Debug\log4net.dll
+E:\1_项目\99_Private\CSharp\DanielLib\NewDanielLib\DanielLib.Utilities\obj\Debug\DanielLib.Utilities.dll
+E:\1_项目\99_Private\CSharp\DanielLib\NewDanielLib\DanielLib.Utilities\obj\Debug\DanielLib.Utilities.pdb

@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-
-using System.Windows.Media.Imaging;
 using System.Windows.Controls;
 using System.Windows.Media;
-using System.IO;
+using System.Windows.Media.Imaging;
 
 namespace DanielLib.Utilities.ImageHandler
 {
